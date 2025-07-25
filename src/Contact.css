@@ -1,0 +1,37 @@
+.contact-section {
+    height: 100vh;
+}
+
+.contact-section h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 20px 0;
+    margin-bottom: 100px;
+}
+
+.contact-section .container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.contact-section input {
+    border: 0;
+    border-bottom: 1px solid #DFE3E7;
+    outline: none;
+}
+
+.btn {
+    margin-top: 20px;
+    background-color: #1ABC9C;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #1ABC9C;
+    color: white;
+}
+
+.btns {
+    display: flex;
+}

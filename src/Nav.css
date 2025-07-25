@@ -1,0 +1,24 @@
+nav {
+    background-color: #2C3E50;
+}
+
+nav .navbar-brand {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+nav .navbar-brand:hover {
+    color: white;
+}
+
+.nav-item .nav-link {
+    color: white;
+    font-weight: 700;
+}
+
+.nav-item .nav-link.active {
+    color: white;
+    background-color: #16A084;
+    border-radius: 10px;
+}

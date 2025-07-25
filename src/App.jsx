@@ -9,7 +9,7 @@ import './App.css'
 
 function App() {
   return (
-    <HashRouter>
+    <>
       <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -18,7 +18,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       <Footer />
-    </HashRouter>
+    </>
   )
 }
 
